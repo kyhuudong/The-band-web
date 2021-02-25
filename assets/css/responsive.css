@@ -1,0 +1,157 @@
+/* pc */
+@media (min-width: 64em) {
+    
+}
+
+
+/* tablet and mobile*/
+@media (max-width: 63.9375em) {
+    .btn {
+        padding: 16px 16px;
+    }
+
+    #contact .form-control {
+        padding: 15px 16px;
+        font-size: 16px;
+    }
+    
+    #contact .contact-submit-btn {
+        font-size: 16px;
+    }
+
+    #footer .socials-list{ 
+        font-size: 32px;
+    }
+
+    #footer .socials-list a {
+        margin: 0px 8px;
+    }
+
+    #footer .copyright,
+    #footer .copyright a {
+        font-size: 26px;
+        padding: 12px 0;
+    }
+
+    #content .content-info {
+        line-height: 2.2;
+    }
+
+
+    
+
+}
+
+
+/* tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    #content .content-info {
+        line-height: 2.2;
+    }
+    
+
+}
+
+
+
+/* mobile */
+@media (max-width: 46.1875em) {
+
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+
+    .s-mt-16 {
+        margin-top: 16px !important;
+    }
+
+    .s-full-width,
+    .s-col-full {
+        width: 100%;
+    }
+
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .search-button {
+        display: none;
+    }
+
+    #header .menu-button {
+        display: inline-block;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+        padding: 1px 0;
+    }
+
+    #nav li:nth-child(1) {
+        display: inline-block;
+    }
+
+    #nav li:nth-child(1) a{
+        padding: 14px 16px;
+    }
+
+    #nav li a{
+        padding: 14px 70% 14px 25px;
+        
+    }
+
+    #nav li:hover a {
+        color: white;
+    }
+
+    #nav .subnav {
+        position: initial;
+        
+    }
+    
+    
+
+    #nav .subnav li {
+        display: block;
+        margin-bottom: -1px;
+        padding: 2px 20px;
+        background-color: #333;
+    }
+
+    #nav .subnav li:nth-child(1) {
+        margin-top: -3px;
+    }
+
+    #nav .subnav a {
+        color: white;
+        padding: 14px 75% 14px 25px;
+    }
+
+
+    #nav .subnav a:hover {
+        color: black;
+    }
+
+    #nav .subnav li:hover{
+        background-color: #ccc;
+        color: black;
+    }
+
+    
+    #content .member-img {
+        width: 60%;
+    }
+
+    #content .contact-form {
+        width: 104%;
+    }
+
+    
+
+
+}
